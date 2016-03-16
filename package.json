@@ -1,0 +1,21 @@
+{
+  "name": "jiandan-crawl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.mapleincode.com:mapleincode/jiandan-crawl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "lodash": "^4.6.1",
+    "toshihiko": "^0.7.7",
+    "wmdl": "git://github.com/mapleincode/wmdl.git#develop"
+  }
+}
