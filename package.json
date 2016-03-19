@@ -14,7 +14,11 @@
   "license": "ISC",
   "dependencies": {
     "async": "^1.5.2",
+    "cron": "^1.1.0",
+    "iconv-lite": "^0.4.13",
     "lodash": "^4.6.1",
+    "moment": "^2.12.0",
+    "request": "^2.69.0",
     "toshihiko": "^0.7.7",
     "wmdl": "git://github.com/mapleincode/wmdl.git#develop"
   }

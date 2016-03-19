@@ -7,4 +7,6 @@ var CrawlModel = toshihiko.define('jiandan_crawl', [
 	{ name: 'createdAt', column: 'created_at', type: toshihiko.TYPE.Datetime }
 ]);
 
+
+
 module.exports = CrawlModel;
