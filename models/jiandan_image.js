@@ -2,6 +2,7 @@ var toshihiko = require('../toshihiko');
 var ImageModel = toshihiko.define('jiandan_image', [
     { name: 'id', column: 'id', primaryKey: true, type: toshihiko.TYPE.Integer },
     { name: 'image', column: 'image' ,type: toshihiko.TYPE.String},
+    { name: 'errorMessage', column: 'error_message' ,type: toshihiko.TYPE.String},
     { name: 'status', column: 'status', type: toshihiko.TYPE.Integer, defaultValue: 0  },
     { name: 'retryTimes', column: 'retry_times', type: toshihiko.TYPE.Integer, defaultValue: 0 },
     { name: 'createdAt', column: 'created_at', type: toshihiko.TYPE.Datetime },
