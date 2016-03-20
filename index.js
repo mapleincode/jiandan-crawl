@@ -1,8 +1,11 @@
 var CronJob = require('cron').CronJob;
 var crawl = require('./lib/crawl');
 var down = require('./lib/down');
+var config = require('./config');
 
-new CronJob('30 * * * * *', function () {
+var intervalTime = config.crawled.intervalTime;
+
+new CronJob('30 */' + intervalTime + ' * * * *', function () {
     crawl.done();
 }, null, true);
 

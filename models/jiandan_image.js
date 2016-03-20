@@ -6,7 +6,8 @@ var ImageModel = toshihiko.define('jiandan_image', [
     { name: 'status', column: 'status', type: toshihiko.TYPE.Integer, defaultValue: 0  },
     { name: 'retryTimes', column: 'retry_times', type: toshihiko.TYPE.Integer, defaultValue: 0 },
     { name: 'createdAt', column: 'created_at', type: toshihiko.TYPE.Datetime },
-    { name: 'updatedAt', column: 'updated_at', type: toshihiko.TYPE.Datetime }
+    { name: 'updatedAt', column: 'updated_at', type: toshihiko.TYPE.Datetime },
+    { name: 'number', column: 'number', type: toshihiko.TYPE.Integer }
 ]);
 
 // var test = ImageModel.build({
