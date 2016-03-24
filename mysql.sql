@@ -6,6 +6,7 @@ CREATE TABLE `jiandan_image` (
   `retry_times` tinyint(4) DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL,
   `error_message` varchar(50) DEFAULT '',
+  `number` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `status` (`status`),
   KEY `update_at` (`updated_at`)

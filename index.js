@@ -5,7 +5,7 @@ var config = require('./config');
 
 var intervalTime = config.crawled.intervalTime;
 
-new CronJob('30 */' + intervalTime + ' * * * *', function () {
+new CronJob('*/10 * * * * *', function () {
     crawl.done();
 }, null, true);
 
