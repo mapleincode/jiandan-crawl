@@ -12,7 +12,7 @@ module.exports = {
     crawled: {
         timeout: 3000,
         retryTimes: 5,
-        save: '/Users/maple/jiandan-crawl-image',
+        save: './jiandan-crawl-images',
         intervalTime: 2
     }
 }
