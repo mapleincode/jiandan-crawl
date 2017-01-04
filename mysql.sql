@@ -8,6 +8,7 @@ CREATE TABLE `jiandan_image` (
   `error_message` varchar(50) DEFAULT '',
   `number` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
+  UNIQUE KEY `image` (`image`),
   KEY `status` (`status`),
   KEY `update_at` (`updated_at`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
