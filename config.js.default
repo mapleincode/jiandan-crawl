@@ -2,7 +2,7 @@ module.exports = {
     mysql: {
         'options': {
             'host': '',
-            'showSql': true
+            'showSql': false
         },
         'port': undefined,
         'database': 'test',
@@ -10,7 +10,7 @@ module.exports = {
         'password': ''
     },
     crawled: {
-        timeout: 3000,
+        timeout: 20000,
         retryTimes: 5,
         save: './jiandan-crawl-images',
         intervalTime: 2
