@@ -15,4 +15,4 @@ module.exports = {
         save: './jiandan-crawl-images',
         intervalTime: 2
     }
-}
+};
